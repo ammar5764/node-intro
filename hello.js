@@ -10,5 +10,6 @@ const fs = require('fs');
 //});
 fs.appendFileSync(`./notes.txt`, ` \nMy name is Rivka`);
 fs.appendFileSync(`./notes.txt`, ` \nMy name is Elisheva`);
+var a=2
 
 // faire la meme chose mais cette fois il doit lire dans la console avec un callback (page 24 du pdf) au lieu de l'ecrire dans le fichier
